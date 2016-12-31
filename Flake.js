@@ -28,6 +28,7 @@ function Flake() {
 			this.y = Math.floor((Math.random() * -100));
 			this.z = Math.floor((Math.random() * 3) + 1);
 		}
+		
 		var canvas = document.getElementById("canvas");
 		var context = canvas.getContext("2d");
 		context.beginPath();
