@@ -5,3 +5,10 @@ snow effect to add to a web page
 
 ###Author
 Chirivì Leonardo
+
+## Usage
+
+Just download the `snow.min.js` and add it on your web page like so:
+```html
+<script src="../path/to/snow.min.js"></script>
+```
