@@ -12,7 +12,7 @@ window.onload = function() {
 function createCanvas() {
 	var canvas = document.createElement("canvas");
 	canvas.addEventListener("mousemove", function(e) {
-		mouseX = event.clientX;
+		mouseX = e.clientX;
 	});
 	canvas.addEventListener("resize", function(e) {
 		resizeCanvas();
